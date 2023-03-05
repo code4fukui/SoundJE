@@ -1,0 +1,7 @@
+1
+Today,今日
+2
+day,曜日
+tomorrow,明日
+3
+Hi,こんにちは

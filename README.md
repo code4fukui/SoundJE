@@ -48,7 +48,7 @@ deno run -A make_words.js words
 
 - [Deno](https://deno.land/)
 - [ffmpeg](https://ffmpeg.org/)
-- say on macOS
+- say on macOS (download Otoya, Kyoko, Ava, Tom)
 
 ## Appendix
 

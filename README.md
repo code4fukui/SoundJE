@@ -20,6 +20,9 @@ What day is tomorrow?
 deno run -A make_sentenses.js sentenses
 ```
 
+3. learn with the SoundJE audio material!
+- [sentenses_je.mp3](https://code4fukui.github.io/SoundJE/dist/sentenses/sentenses_je.mp3)
+
 ### Usage - words
 
 1. prepare src/words.txt
@@ -37,6 +40,9 @@ Hi,こんにちは
 ```sh
 deno run -A make_words.js words
 ```
+
+3. learn with the SoundJE audio material!
+- [words_je.mp3](https://code4fukui.github.io/SoundJE/dist/words/words_je.mp3)
 
 ## Dependencies
 

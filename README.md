@@ -125,3 +125,30 @@ alac  Apple Lossless
 flac  FLAC
 lpcm  Linear PCM
 ```
+
+#### output as wav
+
+```
+say --file-format m4af --data-format '?'
+say --file-format adts --data-format '?'
+  aac   AAC, 1 channels
+  aach  MPEG-4 HE AAC, 1 channels
+  aacp  MPEG-4 HE AAC V2, 1 channels
+say --file-format wave --data-format '?'
+  lpcm  Linear PCM
+  ulaw  μ-Law 2:1
+  alaw  A-Law 2:1
+say --file-format wave --data-format=lpcm はろー
+Syntax of format strings is: {format|[BE|LE]{F|I|UI}{8|16|24|32|64}}[@sample_rate_hz][/format_flags]
+say --file-format wave --data-format=LEI16@48000 -o test.wav -v Otoya はろー
+
+say --file-format lpcm --data-format=LEI16@48000 -o test.wav -v Otoya はろー
+say --file-format adts -o test.aac -v Otoya はろー
+say -o test.wav --data-format=LEF32@22050 -v Otoya こんにちは
+say -o test.wav --data-format=LEI16@48000 -v Otoya こんにちは
+say -o test.aac -v Otoya こんにちは
+
+say -o test2.wav --data-format=LEI16@48000 -v Otoya やほ
+
+ffmpeg -i test.wav -i test2.wav -filter_complex "concat=n=2:v=0:a=1" test3.wav
+```

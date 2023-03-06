@@ -20,7 +20,7 @@ export const makeSoundJE = async (outfn, infn) => {
   const fns2 = [];
   for (let i = 0; i < list.length; i++) {
     const w = list[i];
-    const pre = w.no + (w.id ? "-" + w.id : "");
+    const pre = (w.no ? w.no : i) + (w.id ? "-" + w.id : "");
     const jafn = path + pre + ".ja" + ext;
     const enfn = path + pre + ".en" + ext;
     await writeJapaneseConversation(jafn, w.ja, 300);

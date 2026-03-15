@@ -1,14 +1,16 @@
 # SoundJE - Tools for creating audio materials for learning English
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 ## Features
 
-- SoundJE is a tool for macOS to create audio materials for learing English from text files including words or sentenses.
+- SoundJE is a tool for macOS to create audio materials for learning English from text files including words or sentences.
 
 ## Usage
 
-### Usage - sentenses
+### Usage - sentences
 
-1. prepare src/sentenses.txt
+1. prepare `src/sentenses.txt`
 2. run a script
 ```sh
 deno run -A make_sentenses.js sentenses
@@ -18,7 +20,7 @@ deno run -A make_sentenses.js sentenses
 
 ### Usage - words
 
-1. prepare src/words.txt
+1. prepare `src/words.txt` 
 2. run a script
 ```sh
 deno run -A make_words.js words
@@ -30,7 +32,7 @@ deno run -A make_words.js words
 
 - [Deno](https://deno.land/)
 - [ffmpeg](https://ffmpeg.org/)
-- say on macOS (download Otoya, Kyoko, Ava, Tom)
+- `say` on macOS (download Otoya, Kyoko, Ava, Tom)
 
 ## License
 

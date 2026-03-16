@@ -2,6 +2,8 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
+SoundJE is a tool for macOS to create audio materials for learning English from text files including words or sentences.
+
 ## Features
 
 - SoundJE is a tool for macOS to create audio materials for learning English from text files including words or sentences.
